@@ -32,3 +32,7 @@ Por un lado, los momitores serán los encargados de colgar fotos, información, 
 ¿Quiénes serán los principales usuarios? → Familias con hijos y colegios.
 
 ¿Qué problemas quieren evitar? → Procesos manuales de reservas, saturación de llamadas telefónicas y pérdida de información.
+
+#Mapa de navegación
+
+![Diagrama VlcCamp](./VlcCampDiagrama.drawio.png)
