@@ -33,6 +33,6 @@ Por un lado, los momitores serán los encargados de colgar fotos, información, 
 
 ¿Qué problemas quieren evitar? → Procesos manuales de reservas, saturación de llamadas telefónicas y pérdida de información.
 
-#Mapa de navegación
+# Mapa de navegación
 
 ![Diagrama VlcCamp](./VlcCampDiagrama.drawio.png)
