@@ -34,7 +34,7 @@ Por un lado, los momitores serán los encargados de colgar fotos, información, 
 ¿Qué problemas quieren evitar? → Procesos manuales de reservas, saturación de llamadas telefónicas y pérdida de información.
 
 # Propuesta
-![Propuesta](.mapa.jpg)
+![Propuesta](/.mapa.jpg)
 
 # Mapa de navegación
 
