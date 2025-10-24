@@ -59,32 +59,32 @@ Además de esto, contamos con una pantalla en la que podemos ver información so
 ![Inicio](./imgs/inicio.png)
 En esta pantalla, encontramos nuestra presentación junto con la lista de campamentos con los que trabajamos.
 
-![Info campamento](./imgs/info-camp.png)
+![Info campamento](./imgs/info-camp.png) 
 En esta superposición, vemos mas información sobre dicho campamento, teniendo un botón que te llevará a la web de dicho campamento.
 
-![Iniciar sesión](./imgs/iniciar-sesion.png)
+![Iniciar sesión](./imgs/iniciar-sesion.png) 
 Inicio de sesión básico para poder acceder a la web.
 
-![Registro](./imgs/crear-cuenta.png)
+![Registro](./imgs/crear-cuenta.png) 
 Registro básico para poder acceder a la web
 
-![Verifica](./imgs/verifica.png)
+![Verifica](./imgs/verifica.png) 
 Función en la que se verifica la cuenta registrada
 
-![Albergue](./imgs/albergue.png)
-Esta sería la web del abergue.
+![Albergue](./imgs/albergue.png) 
+Esta sería la web del albergue.
 
-![Formulario](./imgs/formulario.png)
+![Formulario](./imgs/formulario.png) 
 Formulario para poder registrar una reserva
 
-![Resumen del formulario](./imgs/resumen.png)
+![Resumen del formulario](./imgs/resumen.png) 
 Resumen de dicho formualrio.
 
-![Mi cuenta](./imgs/mi-cuenta.png)
+![Mi cuenta](./imgs/mi-cuenta.png) 
 Pantalla en la que aparece información sobre mi cuenta. 
 
-![Info personal de mi cuenta](./imgs/info-personal-mi-cuenta.png)
+![Info personal de mi cuenta](./imgs/info-personal-mi-cuenta.png) 
 Información personal sobre mi cuenta
 
-![Campamentos favoritos de mi cuenta](./imgs/campamentos-fav-mi-cuenta)
+![Campamentos favoritos de mi cuenta](./imgs/campamentos-fav-mi-cuenta) 
 En esta pantalla tenemos el listado de los campamentos y podemos añadirlos a favoritos. 
