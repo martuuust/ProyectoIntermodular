@@ -51,3 +51,40 @@ En los dos casos, al entrar a la web, encontramos una pantalla de inicio en la q
 
 Dentro de cada página de los campamentos, tenemos la posibilidad de seleccionar un rango de fechas en las que se puede hacer una reserva en dicho campamentos. Después, se redirigirá a un formulario en el que se rellenarán los datos necesarios para la reserva. Al terminar, enviaremos el formulario y se nos mostrará un resumen de los datos.
 Además de esto, contamos con una pantalla en la que podemos ver información sobre nuestra cuenta y buscar y añadir nuestros campamentos favoritos. 
+
+## Explicacion de frames
+
+### Inicio
+
+![Inicio](./imgs/inicio.png)
+En esta pantalla, encontramos nuestra presentación junto con la lista de campamentos con los que trabajamos.
+
+![Info campamento](./imgs/info-camp.png)
+En esta superposición, vemos mas información sobre dicho campamento, teniendo un botón que te llevará a la web de dicho campamento.
+
+![Iniciar sesión](./imgs/iniciar-sesion.png)
+Inicio de sesión básico para poder acceder a la web.
+
+![Registro](./imgs/crear-cuenta.png)
+Registro básico para poder acceder a la web
+
+![Verifica](./imgs/verifica.png)
+Función en la que se verifica la cuenta registrada
+
+![Albergue](./imgs/albergue.png)
+Esta sería la web del abergue.
+
+![Formulario](./imgs/formulario.png)
+Formulario para poder registrar una reserva
+
+![Resumen del formulario](./imgs/resumen.png)
+Resumen de dicho formualrio.
+
+![Mi cuenta](./imgs/mi-cuenta.png)
+Pantalla en la que aparece información sobre mi cuenta. 
+
+![Info personal de mi cuenta](./imgs/info-personal-mi-cuenta.png)
+Información personal sobre mi cuenta
+
+![Campamentos favoritos de mi cuenta](./imgs/campamentos-fav-mi-cuenta)
+En esta pantalla tenemos el listado de los campamentos y podemos añadirlos a favoritos. 
