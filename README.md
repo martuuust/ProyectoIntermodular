@@ -43,6 +43,6 @@ Por un lado, los momitores serán los encargados de colgar fotos, información, 
 # Prototipo de Figma
 
 
-Enlace al prototipo de móvil: https://www.figma.com/proto/XMqgzuWBg2S19xbsDGbOCy/Proyecto?page-id=221%3A1588&node-id=221 1667&viewport=-1231%2C178%2C0.73&t=2OT9z584wsvE2C7e-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=221%3A1667
+Enlace al prototipo de móvil: https://www.figma.com/proto/XMqgzuWBg2S19xbsDGbOCy/Proyecto?page-id=221%3A1588&node-id=2211667&viewport=-1231%2C178%2C0.73&t=2OT9z584wsvE2C7e-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=221%3A1667
 
-Enlace al prototipo de escritorio: https://www.figma.com/proto/XMqgzuWBg2S19xbsDGbOCy/Proyecto?page-id=0%3A1&node-id=222-1270&viewport=414%2C240%2C0.32&t=RbwfNc04QjxXuMfg-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=19%3A12
+Enlace al prototipo de escritorio: https://www.figma.com/proto/XMqgzuWBg2S19xbsDGbOCy/Proyecto?page-id=0%3A1&node-id=1912&viewport=414%2C240%2C0.32&t=RbwfNc04QjxXuMfg-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=19%3A12
