@@ -53,8 +53,6 @@ Además de esto, contamos con una pantalla en la que podemos ver información so
 
 ## Explicacion de frames (escritorio)
 
-### Inicio
-
 ![Inicio](./figmaEscritorio/inicio.png) 
 En esta pantalla, encontramos nuestra presentación junto con la lista de campamentos con los que trabajamos.
 
