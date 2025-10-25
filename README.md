@@ -42,7 +42,6 @@ Por un lado, los momitores serán los encargados de colgar fotos, información, 
 
 # Prototipo de Figma
 
-
 Enlace al prototipo de móvil: https://www.figma.com/proto/XMqgzuWBg2S19xbsDGbOCy/Proyecto?page-id=221%3A1588&node-id=2211667&viewport=-1231%2C178%2C0.73&t=2OT9z584wsvE2C7e-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=221%3A1667
 
 Enlace al prototipo de escritorio: https://www.figma.com/proto/XMqgzuWBg2S19xbsDGbOCy/Proyecto?page-id=0%3A1&node-id=1912&viewport=414%2C240%2C0.32&t=RbwfNc04QjxXuMfg-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=19%3A12
@@ -52,39 +51,63 @@ En los dos casos, al entrar a la web, encontramos una pantalla de inicio en la q
 Dentro de cada página de los campamentos, tenemos la posibilidad de seleccionar un rango de fechas en las que se puede hacer una reserva en dicho campamentos. Después, se redirigirá a un formulario en el que se rellenarán los datos necesarios para la reserva. Al terminar, enviaremos el formulario y se nos mostrará un resumen de los datos.
 Además de esto, contamos con una pantalla en la que podemos ver información sobre nuestra cuenta y buscar y añadir nuestros campamentos favoritos. 
 
-## Explicacion de frames
+## Explicacion de frames (escritorio)
 
 ### Inicio
 
-![Inicio](./imgs/inicio.png)
+![Inicio](./figmaEscritorio/inicio.png) 
 En esta pantalla, encontramos nuestra presentación junto con la lista de campamentos con los que trabajamos.
 
-![Info campamento](./imgs/info-camp.png) 
+![Info campamento](./figmaEscritorio/info-camp.png) 
 En esta superposición, vemos mas información sobre dicho campamento, teniendo un botón que te llevará a la web de dicho campamento.
 
-![Iniciar sesión](./imgs/iniciar-sesion.png) 
+![Iniciar sesión](./figmaEscritorio/iniciar-sesion.png) 
 Inicio de sesión básico para poder acceder a la web.
 
-![Registro](./imgs/crear-cuenta.png) 
-Registro básico para poder acceder a la web
+![Registro](./figmaEscritorio/crear-cuenta.png) 
+Registro básico para poder acceder a la web.
 
-![Verifica](./imgs/verifica.png) 
-Función en la que se verifica la cuenta registrada
+![Verifica](./figmaEscritorio/verifica.png) 
+Función en la que se verifica la cuenta registrada.
 
-![Albergue](./imgs/albergue.png) 
-Esta sería la web del albergue.
+![Albergue](./figmaEscritorio/albergue.png) 
+Página con más información sobre el albergue o campamento seleccionado.
 
-![Formulario](./imgs/formulario.png) 
-Formulario para poder registrar una reserva
+![Formulario](./figmaEscritorio/formulario.png) 
+Formulario para poder registrar una reserva.
 
-![Resumen del formulario](./imgs/resumen.png) 
+![Resumen del formulario](./figmaEscritorio/resumen.png) 
 Resumen de dicho formualrio.
 
-![Mi cuenta](./imgs/mi-cuenta.png) 
+![Mi cuenta](./figmaEscritorio/mi-cuenta.png) 
 Pantalla en la que aparece información sobre mi cuenta. 
 
-![Info personal de mi cuenta](./imgs/info-personal-mi-cuenta.png) 
-Información personal sobre mi cuenta
+![Info personal de mi cuenta](./figmaEscritorio/info-personal-mi-cuenta.png) 
+Información personal sobre mi cuenta.
 
-![Campamentos favoritos de mi cuenta](./imgs/campamentos-fav-mi-cuenta) 
+![Campamentos favoritos de mi cuenta](./figmaEscritorio/campamentos-fav-mi-cuenta) 
 En esta pantalla tenemos el listado de los campamentos y podemos añadirlos a favoritos. 
+
+## Explicacion de frames (móvil)
+
+![Inicio](./figmaMovil/inicio.png) 
+Página inicial donde podemos encontrar una breve explicación nuestra y los diferentes campamentos que proporcionamos.
+
+![Ubi](./figmaMovil/ubi.png) 
+Superposición que nos muestra la ubicación del campamento.
+
+![+Info](./figmaMovil/masInfo.png) 
+Esta página nos muestra más información sobre el campamento seleccionado con un calendario que al hacer clic sobre un rango de fechas se nos abrirá la página siguiente.
+
+![Formulario](./figmaMovil/form.png) 
+Desde este formulario puedes inscribir a tus hijos al campamento que más te guste.
+
+![Resumen](./figmaMovil/resumen.png) 
+Aquí nos mostrará un resumen de lo que anteriormente hemos rellenado en el formulario.
+
+![Cuenta](./figmaMovil/cuenta.png) 
+Es necesario crear una cuenta o iniciar sesión en caso de que ya tengas una.
+
+![Info cuenta](./figmaMovil/infoCuenta.png) 
+Está es una ventana que se nos abrirá con opciones como editar datos de nuestra cuenta, añadir y visualizar los campamentos favoritos.
+
