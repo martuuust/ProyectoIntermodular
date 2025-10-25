@@ -70,7 +70,7 @@ Registro básico para poder acceder a la web.
 ![Verifica](./figmaEscritorio/verifica.png) 
 Función en la que se verifica la cuenta registrada.
 
-![Albergue](./figmaEscritorio/albergue.png) 
+![Albergue](./figmaEscritorio/albuergue.png) 
 Página con más información sobre el albergue o campamento seleccionado.
 
 ![Formulario](./figmaEscritorio/formulario.png) 
