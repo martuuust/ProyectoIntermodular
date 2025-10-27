@@ -209,7 +209,7 @@ Resumen de la **información completada en el formulario**.
 
 ### 👤 Cuenta de usuario  
 <div align="center">
-  <img src="./figmaMovil/cuenta.png" alt="Cuenta" width="350px">
+  <img src="./figmaMovil/cuenta.png" alt="Cuenta">
 </div>
 
 Es necesario **crear una cuenta o iniciar sesión** en caso de que ya exista una.
@@ -218,7 +218,7 @@ Es necesario **crear una cuenta o iniciar sesión** en caso de que ya exista una
 
 ### ⚙️ Información de la cuenta  
 <div align="center">
-  <img src="./figmaMovil/infoCuenta.png" alt="Info cuenta" width="350px">
+  <img src="./figmaMovil/infoCuenta.png" alt="Info cuenta">
 </div>
 
 Ventana con opciones para **editar los datos de la cuenta**, **añadir favoritos** y **visualizar campamentos guardados**.
