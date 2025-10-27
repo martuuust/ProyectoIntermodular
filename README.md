@@ -53,7 +53,7 @@ Además de esto, contamos con una pantalla en la que podemos ver información so
 
 ## 🖥️ Explicación de Frames — Versión Escritorio
 
-> En esta sección encontrarás las distintas pantallas que componen la versión de escritorio del sitio web de campamentos.
+> En esta sección encontrarás las distintas pantallas que componen la versión de escritorio.
 
 ---
 
