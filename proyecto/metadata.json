@@ -1,0 +1,5 @@
+{
+  "name": "vlcCamp - Camp Management",
+  "description": "A web application for browsing and registering for summer camps in the Valencian Community. Users can view camp details, select dates, and fill out an enrollment form.",
+  "requestFramePermissions": []
+}
