@@ -461,7 +461,7 @@ const CommunityPage: React.FC<CommunityPageProps> = ({ currentUser, onSwitchAcco
       loadCommunityData();
     }, [currentUser.email]);
 
-    const handleLike = (postId: number) => {
+    const handleLike = async (postId: number) => {
         if (!currentUser) return;
         setPosts(prevPosts => prevPosts.map(p => {
             if (p.id === postId) {
@@ -486,7 +486,7 @@ const CommunityPage: React.FC<CommunityPageProps> = ({ currentUser, onSwitchAcco
         }
     };
 
-    const handleAddComment = (postId: number, commentText: string) => {
+    const handleAddComment = async (postId: number, commentText: string) => {
         if (!currentUser) return;
         const newComment: Comment = { id: Date.now(), authorName: currentUser.name, authorAvatar: currentUser.avatar, text: commentText };
         setPosts(prevPosts => prevPosts.map(p => {
@@ -510,7 +510,7 @@ const CommunityPage: React.FC<CommunityPageProps> = ({ currentUser, onSwitchAcco
         }
     };
 
-    const handleAddPost = (postData: { type: 'photo' | 'poll' | 'text', caption: string, imageBase64?: string | null, poll?: { question: string, options: string[] } }) => {
+    const handleAddPost = async (postData: { type: 'photo' | 'poll' | 'text', caption: string, imageBase64?: string | null, poll?: { question: string, options: string[] } }) => {
         try {
             if (!currentUser) return;
             const basePayload: any = {
@@ -527,7 +527,7 @@ const CommunityPage: React.FC<CommunityPageProps> = ({ currentUser, onSwitchAcco
             };
 
             if (postData.type === 'photo' && postData.imageBase64) {
-              basePayload.image_url = postData.imageBase4;
+              basePayload.image_url = postData.imageBase64;
             } else if (postData.type === 'poll' && postData.poll) {
               basePayload.poll = {
                 question: postData.poll.question,
@@ -571,7 +571,7 @@ const CommunityPage: React.FC<CommunityPageProps> = ({ currentUser, onSwitchAcco
         }
     };
     
-    const handleAddStory = (data: { imageBase64: string, caption: string }) => {
+    const handleAddStory = async (data: { imageBase64: string, caption: string }) => {
         try {
             if (!currentUser) return;
             const payload = {
@@ -607,7 +607,7 @@ const CommunityPage: React.FC<CommunityPageProps> = ({ currentUser, onSwitchAcco
         }
     };
 
-    const handleDeletePost = (postId: number) => {
+    const handleDeletePost = async (postId: number) => {
         if (window.confirm(t('community.deletePostConfirmation'))) {
             setPosts(prevPosts => prevPosts.filter(p => p.id !== postId));
             try {
@@ -621,7 +621,7 @@ const CommunityPage: React.FC<CommunityPageProps> = ({ currentUser, onSwitchAcco
         }
     };
     
-    const handleVote = (postId: number, optionId: number) => {
+    const handleVote = async (postId: number, optionId: number) => {
         if (!currentUser) return;
         setPosts(prevPosts => prevPosts.map(p => {
             if (p.id === postId && p.type === 'poll' && p.poll && !p.poll.votedBy[currentUser.email]) {

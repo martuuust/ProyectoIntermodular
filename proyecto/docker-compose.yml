@@ -1,19 +1,36 @@
-version: "3.9"
-
 services:
   frontend:
     build:
       context: .
       dockerfile: Dockerfile
+      args:
+        - VITE_SUPABASE_URL=${VITE_SUPABASE_URL}
+        - VITE_SUPABASE_ANON_KEY=${VITE_SUPABASE_ANON_KEY}
+        - VITE_GEMINI_API_KEY=${VITE_GEMINI_API_KEY}
+        - VITE_API_BASE_URL=http://backend:4000
     container_name: vlccamp_frontend
     ports:
       - "3000:80"
-    environment:
-      - VITE_SUPABASE_URL=${VITE_SUPABASE_URL}
-      - VITE_SUPABASE_ANON_KEY=${VITE_SUPABASE_ANON_KEY}
-      - VITE_API_BASE_URL=http://backend:4000
+    env_file:
+      - .env
     depends_on:
       - backend
+    networks:
+      - app-network
+
+  social:
+    build:
+      context: ./social
+      dockerfile: Dockerfile
+      args:
+        - VITE_SUPABASE_URL=${VITE_SUPABASE_URL}
+        - VITE_SUPABASE_ANON_KEY=${VITE_SUPABASE_ANON_KEY}
+        - VITE_GEMINI_API_KEY=${VITE_GEMINI_API_KEY}
+    container_name: vlccamp_social
+    ports:
+      - "3001:80"
+    env_file:
+      - .env
     networks:
       - app-network
 
@@ -24,11 +41,8 @@ services:
     container_name: vlccamp_backend
     ports:
       - "4000:4000"
-    environment:
-      - PORT=4000
-      - SUPABASE_URL=${SUPABASE_URL}
-      - SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
-      - CORS_ORIGIN=http://localhost:3000
+    env_file:
+      - .env
     volumes:
       - ./backend:/usr/src/app
       - /usr/src/app/node_modules
@@ -38,6 +52,3 @@ services:
 networks:
   app-network:
     driver: bridge
-
-
-

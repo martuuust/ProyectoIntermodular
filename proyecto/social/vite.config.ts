@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
     // Vite automáticamente expone variables con prefijo VITE_ a través de import.meta.env
     return {
       server: {
-        port: 3000,
+        port: 3001,
         host: '0.0.0.0',
       },
       plugins: [react()],

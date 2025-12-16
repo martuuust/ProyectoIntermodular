@@ -10,6 +10,7 @@ import RegistrationForm from './components/RegistrationForm';
 import SummaryPage from './components/SummaryPage';
 import InfoModal from './components/InfoModal';
 import AccountPage from './components/account/AccountPage';
+import CommunityPage from './components/CommunityPage';
 import Chatbot from './components/chatbot/Chatbot';
 import ChatbotFab from './components/chatbot/ChatbotFab';
 import { useTranslations } from './context/LanguageContext';
@@ -113,7 +114,9 @@ const App: React.FC = () => {
   }
 
   const handleCommunityClick = () => {
-    setCurrentView('coming-soon');
+    // Abrir la aplicación social en una nueva pestaña
+    const socialUrl = import.meta.env.VITE_SOCIAL_URL || 'http://localhost:3001';
+    window.open(socialUrl, '_blank');
   }
 
   const handleRegister = async (newUser: User) => {
@@ -397,6 +400,8 @@ const App: React.FC = () => {
         return selectedCamp && selectedDateRange && formData && <SummaryPage camp={selectedCamp} dateRange={selectedDateRange} formData={formData} onConfirm={handleConfirmRegistration} />;
       case 'account':
         return currentUser && <AccountPage user={currentUser} onUpdateUser={handleUpdateUser} onAddReview={handleAddReview} userReviews={userReviews} />;
+      case 'community':
+        return currentUser && <CommunityPage currentUser={currentUser} onSwitchAccount={handleSwitchAccount} onAccountClick={handleShowAccount} />;
       case 'coming-soon':
         return <ComingSoonPage />;
       case 'home':

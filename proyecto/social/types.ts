@@ -36,7 +36,7 @@ export interface DateRange {
   end: Date;
 }
 
-export type View = 'home' | 'detail' | 'form' | 'summary' | 'auth' | 'info' | 'account' | 'coming-soon';
+export type View = 'home' | 'detail' | 'form' | 'summary' | 'auth' | 'info' | 'account' | 'coming-soon' | 'community';
 
 export interface User {
   name: string;
